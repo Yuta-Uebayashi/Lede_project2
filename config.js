@@ -41,7 +41,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Japan’s Total Population Has Been Declining',
-            image: './assets/Japan_Total_Population_Is_Declining.png',
+            image: './Graphs_and_Maps/Japan_Total_Population_Is_Declining.png',
             description: '',
             location: {
                 center: [139.00666, 38.04727],
