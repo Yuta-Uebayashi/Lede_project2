@@ -231,7 +231,11 @@
                 chapter.appendChild(title);
             }
 
-            if (record.image) {
+            if (record.html) {
+                var htmlDiv = document.createElement('div');
+                htmlDiv.innerHTML = record.html;
+                chapter.appendChild(htmlDiv);
+            } else if (record.image) {
                 var image = new Image();
                 image.src = record.image;
                 chapter.appendChild(image);

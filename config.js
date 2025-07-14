@@ -21,7 +21,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: 'Japan is aging rapidly and facing a steep decline in its birthrate.The number of births has dropped to about one-third of its peak in the 1970s, and people aged 65 and older now make up more than 30% of the population.As a result, foreign residents are increasingly seen as a key part of addressing Japan’s labor shortage.',
+            description: 'Japan is aging rapidly and facing a steep decline in its birthrate. The number of births has dropped to about one-third of its peak in the 1970s, and people aged 65 and older now make up more than 30% of the population.As a result, foreign residents are increasingly seen as a key part of addressing Japan’s labor shortage.',
             location: {
                 center: [139.00666, 38.04727],
                 zoom: 4.34,
@@ -83,22 +83,28 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'Share of Foreign Residents by Prefecture',
-            image: './Graphs_and_Maps/foreign-resident-ratio-by-prefecture.png',
-            description: 'Using data from the 2020 census, I analyzed the percentage of foreign residents in each prefecture. <br> In major metropolitan areas like Tokyo, Osaka, and Aichi, the percentage of foreign residents exceeded 3%.In contrast, many rural municipalities in regions such as Tohoku and Kyushu had less than 1%.',
+            html: `<iframe title="" aria-label="map" id="datawrapper-chart-pkvis" src="https://datawrapper.dwcdn.net/pkvis/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="484" data-external="1"></iframe>
+            <script type="text/javascript">
+            !function(){"use strict";window.addEventListener("message",function(a){
+              if(void 0!==a.data["datawrapper-height"]){
+                var e=document.querySelectorAll("iframe");
+                for(var t in a.data["datawrapper-height"])
+                  for(var r,i=0;r=e[i];i++)
+                    if(r.contentWindow===a.source){
+                      var d=a.data["datawrapper-height"][t]+"px";
+                      r.style.height=d
+                    }
+            }
+        })}();
+        </script>`,
+            description: 'Using data from the 2020 census, I analyzed the percentage of foreign residents in each prefecture. <br> In major metropolitan areas like Tokyo, Osaka, and Aichi, the percentage of foreign residents exceeded 3%. In contrast, many rural municipalities in regions such as Tohoku and Kyushu had less than 1%.',
             location: {
-                center: [139.00666, 38.04727],
-                zoom: 4.34,
-                pitch: 0,
-                bearing: 0
+              center: [139.00666, 38.04727],
+              zoom: 4.34,
+              pitch: 0,
+              bearing: 0
             },
-            mapAnimation: 'flyTo',
-            rotateAnimation: false,
-            callback: '',
-            onChapterEnter: [
-            ],
-            onChapterExit: [
-            ]
-        },
+          },
         {
             id: 'second-chapter',
             alignment: 'right',
