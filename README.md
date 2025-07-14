@@ -57,7 +57,7 @@ In the future, I hope to:
 
 ## 📂 Datasets Used
 
-- Foreign resident ratios by municipality: [2020 and 2010 Census data](https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200521&tstat=000001136464)
+- Foreign resident ratios by municipality: [2020 and 2010 Census data](https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200521)
 - Local tax revenue by municipality: [Ministry of Internal Affairs and Communications](https://www.soumu.go.jp/iken/zaisei/r02_shichouson.html)
 - Administrative boundaries: [National Land Numerical Information download service](https://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N03.html)
 
