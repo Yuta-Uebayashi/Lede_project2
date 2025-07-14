@@ -57,9 +57,9 @@ In the future, I hope to:
 
 ## 📂 Datasets Used
 
-- [2020 Census Data - Foreign Residents by Municipality](https://www.soumu.go.jp/menu_news/s-news/01gyosei06_02000171.html)
-- [Local Tax Revenue by Municipality ](https://www.soumu.go.jp/menu_seisaku/gyoumukanri_sonota/chihou/zaisei/ichiran.html)
-- GeoJSON boundary files from [geoshape.ex.nii.ac.jp](https://geoshape.ex.nii.ac.jp)
+- [2020 Census Data – Foreign Residents by Municipality](https://www.e-stat.go.jp/stat-search/files?page=1&toukei=00200521&tstat=000001136464)
+- [Local Tax Revenue by Municipality](https://www.soumu.go.jp/iken/zaisei/r02_shichouson.html)
+- Administrative boundary data (N03), provided by the [National Land Numerical Information download service](https://nlftp.mlit.go.jp/ksj/jpgis/datalist/KsjTmplt-N03.html), Ministry of Land, Infrastructure, Transport and Tourism (MLIT), Japan
 
 ---
 
